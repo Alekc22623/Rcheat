@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+body {
+  background-color: #171717;
+  font: normal 14px "Jost", sans-serif;
+}
+
+.logo h1 {
+  font-size: 25px;
+  margin-top: 8px;
+  color: #707070;
+}
+
+.logo {
+  position: fixed;
+  display: flex;
+  height: 50px;
+  top: 10px;
+}
+
+.exp h1:nth-child(1) {
+  position: fixed;
+  top: 30%;
+  left: 47%;
+  color: #707070;
+}
+
+.exp h1:nth-child(2) {
+  position: fixed;
+  top: 40%;
+  left: 47%;
+  color: #8f8f8f;
+}
+
+.exp p {
+  position: fixed;
+  top: 45%;
+  left: 44.2%;
+  font-size: 20px;
+  color: #8f8f8f;
+}
+
+@media (max-width: 700px) {
+  .exp h1:nth-child(1),
+  .exp h1:nth-child(2) {
+    left: 42%;
+  }
+}
+
+@media (max-width: 700px) {
+  .exp p {
+    left: 32%;
+  }
+}

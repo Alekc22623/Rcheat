@@ -1,0 +1,47 @@
+.Discord button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+  color: #8f8f8f;
+  border-color: black;
+  background: #171717;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  border-radius: 100px;
+  transition: 500ms;
+}
+
+.Discord:hover button {
+  transition: 500ms;
+  background: #1e1d1d;
+}
+
+.Rcheat button {
+  position: fixed;
+  top: 55%;
+  left: 45.7%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+  color: #8f8f8f;
+  border-color: black;
+  background: #171717;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  border-radius: 100px;
+  transition: 500ms;
+}
+
+.Rcheat:hover button {
+  transition: 500ms;
+  background: #1e1d1d;
+}
+
+@media (max-width: 700px) {
+  .Rcheat button {
+    left: 37.5%;
+  }
+}
