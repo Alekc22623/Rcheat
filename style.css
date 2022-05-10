@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+body {
+  background-color: #171717;
+  font: normal 14px "Jost", sans-serif;
+}
+
+.logo h1 {
+  font-size: 25px;
+  margin-top: 8px;
+  color: #707070;
+}
+
+.logo {
+  position: fixed;
+  display: flex;
+  height: 50px;
+  top: 10px;
+}
+
+.exp h1:nth-child(1) {
+  margin: auto;
+  width: max-content;
+  height: max-content;
+  margin-bottom: 40px;
+  color: #707070;
+}
+
+.exp h1:nth-child(2) {
+  margin: auto;
+  width: max-content;
+  color: #8f8f8f;
+  margin-bottom: 20px;
+}
+
+.exp p {
+  margin: auto;
+  width: max-content;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #8f8f8f;
+}
+
+.exp button {
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+  color: #8f8f8f;
+  border-color: black;
+  background: #171717;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  border-radius: 100px;
+  transition: 500ms;
+}
+
+.exp:hover button {
+  transition: 500ms;
+  background: #1e1d1d;
+}
+
+body a input {
+  position: fixed;
+  left: 94%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+  color: #8f8f8f;
+  border-color: black;
+  background: #171717;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  border-radius: 100px;
+  transition: 500ms;
+}
+
+body a input {
+  transition: 500ms;
+  background: #1e1d1d;
+}
